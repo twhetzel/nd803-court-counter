@@ -69,7 +69,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void reset(View v) {
         int zero_score = 0;
-        clearScores(zero_score);
+        displayForTeamA(zero_score);
+        displayForTeamB(zero_score);
+
+        // Reset internal score variables to 0
+        scoreTeamA = zero_score;
+        scoreTeamB = zero_score;
     }
 
 
@@ -92,12 +97,12 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Clear scores for Team A and Team B.
      */
-    public void clearScores(int reset_score) {
-        TextView scoreViewA = (TextView) findViewById(R.id.team_a_score);
-        scoreViewA.setText(String.valueOf(reset_score));
-
-        TextView scoreViewB = (TextView) findViewById(R.id.team_b_score);
-        scoreViewB.setText(String.valueOf(reset_score));
-    }
+//    public void clearScores(int reset_score) {
+//        TextView scoreViewA = (TextView) findViewById(R.id.team_a_score);
+//        scoreViewA.setText(String.valueOf(reset_score));
+//
+//        TextView scoreViewB = (TextView) findViewById(R.id.team_b_score);
+//        scoreViewB.setText(String.valueOf(reset_score));
+//    }
 
 }
