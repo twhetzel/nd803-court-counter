@@ -94,15 +94,4 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-    /**
-     * Clear scores for Team A and Team B.
-     */
-//    public void clearScores(int reset_score) {
-//        TextView scoreViewA = (TextView) findViewById(R.id.team_a_score);
-//        scoreViewA.setText(String.valueOf(reset_score));
-//
-//        TextView scoreViewB = (TextView) findViewById(R.id.team_b_score);
-//        scoreViewB.setText(String.valueOf(reset_score));
-//    }
-
 }
