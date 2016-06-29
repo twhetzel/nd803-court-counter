@@ -24,7 +24,7 @@
                 android:text="Team A"
                 android:fontFamily="sans-serif-medium"
                 android:textSize="14sp"
-                android:textColor="#616161"/>
+                android:textColor="@color/gray"/>
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -35,7 +35,7 @@
                 android:text="0"
                 android:fontFamily="sans-serif-light"
                 android:textSize="56sp"
-                android:textColor="#000"/>
+                android:textColor="#@color/black"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                 android:layout_marginRight="24dp"
                 android:onClick="addThreeForTeamA"
                 android:text="+3 Points"
-                android:background="#ff6f00"/>
+                android:background="@color/orange"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -90,7 +90,7 @@
                 android:text="Team B"
                 android:fontFamily="sans-serif-medium"
                 android:textSize="14sp"
-                android:textColor="#616161"/>
+                android:textColor="@color/gray"/>
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -101,7 +101,7 @@
                 android:text="0"
                 android:fontFamily="sans-serif-light"
                 android:textSize="56sp"
-                android:textColor="#000"/>
+                android:textColor="@color/black"/>
 
             <Button
                 android:layout_width="match_parent"
