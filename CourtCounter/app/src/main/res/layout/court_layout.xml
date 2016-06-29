@@ -35,7 +35,7 @@
                 android:text="0"
                 android:fontFamily="sans-serif-light"
                 android:textSize="56sp"
-                android:textColor="#@color/black"/>
+                android:textColor="@color/black"/>
 
             <Button
                 android:layout_width="match_parent"
